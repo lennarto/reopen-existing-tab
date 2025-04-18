@@ -7,13 +7,13 @@ This project provides simple scripts to open a specific URL in an existing tab o
 ### Open in Chrome
 
 ```sh
-osascript -l JavaScript /Users/lto/coding/_lto_apps/open-existing-url/open-chrome-tab.js "https://web.whatsapp.com/"
+osascript -l JavaScript /Users/lto/open-chrome-tab.js "https://web.whatsapp.com/"
 ```
 
 ### Open in Safari
 
 ```sh
-osascript -l JavaScript /Users/lto/coding/_lto_apps/open-existing-url/open-safari-tab.js "https://web.whatsapp.com/"
+osascript -l JavaScript /Users/lto/open-safari-tab.js "https://web.whatsapp.com/"
 ```
 
 ## Integration Example: BetterTouchTool
