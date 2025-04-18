@@ -20,4 +20,4 @@ osascript -l JavaScript /Users/lto/coding/_lto_apps/open-existing-url/open-safar
 
 You can integrate this with [BetterTouchTool](https://folivora.ai/) to quickly launch or focus specific web apps using gestures or shortcuts.
 
-<img src="BetterTouchTools.png" alt="Example using BetterTouchTool" width="600">
+<img src="images/BetterTouchTools.png" alt="Example using BetterTouchTool" width="600">
