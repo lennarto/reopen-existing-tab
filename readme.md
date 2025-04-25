@@ -3,13 +3,28 @@
 <img alt="Fallback image description" src="images/logo_light.svg" width="300">
 </div>
 
+<h1 align="center">
+	<img
+		width="300"
+		alt="The Lounge"
+		src="https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true">
+</h1>
+
+<h3 align="center">
+	Modern web IRC client designed for self-hosting
+</h3>
+
 <div align="center">
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="images/logo_dark.svg" width="200">
-  <source media="(prefers-color-scheme: light)" srcset="images/logo_light.svg" width="200">
-  <img alt="Fallback image description" src="images/logo_light.svg" width="200">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/logo_dark.svg" width="300">
+  <source media="(prefers-color-scheme: light)" srcset="images/logo_light.svg" width="300">
+  <img alt="Fallback image description" src="images/logo_light.svg" width="300">
 </picture>
 </div>
+
+<h3 align="center">
+	Modern web IRC client designed for self-hosting
+</h3>
 
 # Open Existing URL in Browser
 
@@ -37,3 +52,5 @@ You can integrate this with [BetterTouchTool](https://folivora.ai/) to quickly l
 
 ## Apple Shortcuts
 **todo**
+
+## ABOUT ME / Contributing / License
