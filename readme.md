@@ -3,11 +3,13 @@
 <img alt="Fallback image description" src="images/logo_light.svg" width="300">
 </div>
 
+<div align="center">
 <picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="images/logo_dark.svg" width="200">
   <source media="(prefers-color-scheme: light)" srcset="images/logo_light.svg" width="200">
   <img alt="Fallback image description" src="images/logo_light.svg" width="200">
 </picture>
+</div>
 
 # Open Existing URL in Browser
 
