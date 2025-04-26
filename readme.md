@@ -33,13 +33,13 @@ testet only on MacOS !!!
 ### Open in Chrome
 
 ```sh
-osascript -l JavaScript /users/lto/open-chrome-tab.js "https://web.whatsapp.com/"
+osascript -l JavaScript /users/lto/coding/_lto_apps/open-existing-tab/scripts/open-chrome-tab.js "https://web.whatsapp.com/"
 ```
 
 ### Open in Safari
 
 ```sh
-osascript -l JavaScript /users/lto/open-safari-tab.js "https://web.whatsapp.com/"
+osascript -l JavaScript /users/lto/coding/_lto_apps/open-existing-tab/scripts/open-safari-tab.js "https://web.whatsapp.com/"
 ```
 
 TODO:

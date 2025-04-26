@@ -31,8 +31,8 @@ function normalizeUrl(url) {
 function findTabForUrl(url) {
   const target = normalizeUrl(url);
 
-  for (let i = 0; i < Chrome.windows.length; i++) {
-    const currentWindow = Chrome.windows[i];
+  for (let i = 0; i < Safari.windows.length; i++) {
+    const currentWindow = Safari.windows[i];
     for (let j = 0; j < currentWindow.tabs.length; j++) {
       const currentTab = currentWindow.tabs[j];
       const tabUrl = normalizeUrl(currentTab.url());
