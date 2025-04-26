@@ -42,6 +42,9 @@ osascript -l JavaScript /users/lto/open-chrome-tab.js "https://web.whatsapp.com/
 osascript -l JavaScript /users/lto/open-safari-tab.js "https://web.whatsapp.com/"
 ```
 
+TODO:
+- more browsers to come
+
 ## Integration Example: BetterTouchTool
 
 You can integrate this with [BetterTouchTool](https://folivora.ai/) to quickly launch or focus specific web apps using gestures or shortcuts.
@@ -61,3 +64,6 @@ sponsor page
 "open-existing-tab" is released under the terms of the [MIT License](LICENSE).
 
 BUY ME a COFFE, PAYPAL, LO FI
+
+BUGS
+- scheint noch nicht alles zu funktionieren, zB bild.de
