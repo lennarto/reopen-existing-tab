@@ -1,0 +1,24 @@
+{
+  "name": "reopen",
+  "version": "1.0.0",
+  "description": "Open a URL in an existing Chrome or Safari tab",
+  "main": "index.js",
+  "bin": {
+    "reopen": "bin/reopen"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennarto/open-existing-tab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lennarto/open-existing-tab/issues"
+  },
+  "homepage": "https://github.com/lennarto/open-existing-tab#readme"
+}

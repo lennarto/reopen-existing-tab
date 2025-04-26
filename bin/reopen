@@ -1,0 +1,70 @@
+#!/usr/bin/env node
+
+const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+
+// Config file to remember the standard browser
+const configPath = path.join(process.env.HOME, '.reopen-config.json');
+
+// Load current config
+function getConfig() {
+  if (fs.existsSync(configPath)) {
+    return JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  }
+  return { browser: 'chrome' }; // Default to Chrome
+}
+
+// Save config
+function setConfig(newConfig) {
+  fs.writeFileSync(configPath, JSON.stringify(newConfig, null, 2));
+}
+
+// Main
+(async () => {
+  const [,, ...args] = process.argv;
+
+  if (args.length === 0) {
+    console.error("Usage: reopen [standard <browser>] | [<browser> <url>] | <url>");
+    process.exit(1);
+  }
+
+  // Handle "standard" command
+  if (args[0] === 'standard' && args[1]) {
+    const newBrowser = args[1].toLowerCase();
+    setConfig({ browser: newBrowser });
+    console.log(`Default browser set to: ${newBrowser}`);
+    process.exit(0);
+  }
+
+  let browser;
+  let url;
+
+  if (args.length === 1) {
+    // Only URL given — use default browser
+    url = args[0];
+    browser = getConfig().browser;
+  } else if (args.length === 2) {
+    // Browser and URL given
+    browser = args[0].toLowerCase();
+    url = args[1];
+  } else {
+    console.error("Too many arguments. Usage: reopen [standard <browser>] | [<browser> <url>] | <url>");
+    process.exit(1);
+  }
+
+  const installPath = path.resolve(__dirname, '..', 'scripts');
+  const scriptPath = path.join(installPath, `open-${browser}-tab.js`);
+
+  if (!fs.existsSync(scriptPath)) {
+    console.error(`Script for browser "${browser}" not found at ${scriptPath}`);
+    process.exit(1);
+  }
+
+  try {
+    execSync(`osascript -l JavaScript "${scriptPath}" "${url}"`, { stdio: 'inherit' });
+  } catch (err) {
+    console.error('Failed to open URL:', err.message);
+    process.exit(1);
+  }
+})();
