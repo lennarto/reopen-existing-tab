@@ -2,6 +2,10 @@
 	<img alt="Fallback image description" src="images/logo_light.svg" width="300">
 </h1>
 
+<h1 align="center">
+	<img alt="Fallback image description" src="images/logo_dark2.svg" width="300">
+</h1>
+
 <h3 align="center">
 	Modern web IRC client designed for self-hosting
 </h3>
