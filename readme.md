@@ -35,20 +35,48 @@ reopen standard safari # change standard-browser
 ```sh
 osascript -l JavaScript /scripts/open-chrome-tab.js "https://web.whatsapp.com/"
 ```
+## Browsers
+#### ✅ Supported
+```sh
+reopen standard **chrome** 
+reopen standard safari 
+reopen standard edge 
+reopen standard opera 
+```
 
+#### ❌ NOT Supported
+Unfortunately, **Arc** and **Firefox** do not allow access to "tabs". They also have very limited AppleScript support. A solution for firefox might be possible, but needs more development effort. You can upvote the issues to show your interest.
 
+[Arc support](issues/1)
+[Firefox support](issues/2)
+ 
+## Integration Examples
+You can integrate this with Tools like Apple Shortcuts or [BetterTouchTool](https://folivora.ai/) to quickly re-open urls with specific gestures, buttons, or keyboard shortcuts.
 
-TODO:
-- more browsers to come
+### You might need to load your shell config first
+BetterTouchTools and Shortcuts (especially in “Run Shell Script”) often run a minimal environment: they don’t load your full shell config. That’s why reopen might be unknown inside these tools, and **you might have to load your shell config before.
+In my case, it works with:**
+```sh
+source ~/.zshrc
+reopen "https://netflix.com"
+```
 
-## Integration Example: BetterTouchTool
+### Need of using " " and https
 
-You can integrate this with [BetterTouchTool](https://folivora.ai/) to quickly launch or focus specific web apps using gestures or shortcuts.
+In the embedded terminals, you might need to put the url in brackets and add https."
+```sh
+reopen netflix.com # works perfectly in normal terminals
+reopen "https://netflix.com" # might be needed in embedded terminals (like Shortcuts or BetterTouchtools)
+```
+
+#### Better Touch Tools
 
 <img src="images/BetterTouchTools.png" alt="Example using BetterTouchTool" width="600">
 
-## Apple Shortcuts
-**todo**
+#### Apple Shortcuts
+
+<img src="images/AppleShortcuts.png" alt="Example using BetterTouchTool" width="600">
+
 
 ## 🤝  Found a bug? Missing a specific feature?
 Feel free to file a new issue with a respective title and description
@@ -60,6 +88,3 @@ sponsor page
 "open-existing-tab" is released under the terms of the [MIT License](LICENSE).
 
 BUY ME a COFFE, PAYPAL, LO FI
-
-BUGS
-- scheint noch nicht alles zu funktionieren, zB bild.de
