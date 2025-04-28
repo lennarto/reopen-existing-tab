@@ -12,12 +12,6 @@
 
 <img src="images/demo.gif" alt="Demo GIF" width="600">
 
-# Open Existing URL in Browser
-
-This project provides simple scripts to open a specific URL in an existing tab of either Google Chrome or Safari. If no such tab exists, it opens a new one.
-
-gif
-
 ## 🚀 Installation 
 ```sh
 brew tap lennarto/reopen
@@ -38,20 +32,20 @@ osascript -l JavaScript /scripts/open-chrome-tab.js "https://web.whatsapp.com/"
 ## Browsers
 #### ✅ Supported
 ```sh
-reopen standard **chrome** 
+reopen standard chrome
 reopen standard safari 
 reopen standard edge 
 reopen standard opera 
 ```
 
 #### ❌ NOT Supported
-Unfortunately, **Arc** and **Firefox** do not allow access to "tabs". They also have very limited AppleScript support. A solution for firefox might be possible, but needs more development effort. You can upvote the issues to show your interest.
+Unfortunately, **Arc** and **Firefox** do not allow access to "tabs". They also have very limited AppleScript support. A solution for Firefox might be possible, but needs more development effort. You can upvote the issues to show your interest.
 
-[Arc support](issues/1)
-[Firefox support](issues/2)
+<a href="https://github.com/lennarto/reopen-existing-tab/issues/1" target="_blank">Arc support</a>
+<a href="https://github.com/lennarto/reopen-existing-tab/issues/2" target="_blank">Firefox support</a>
  
 ## Integration Examples
-You can integrate this with Tools like Apple Shortcuts or [BetterTouchTool](https://folivora.ai/) to quickly re-open urls with specific gestures, buttons, or keyboard shortcuts.
+You can integrate this with Tools like Apple Shortcuts or <a href="https://folivora.ai/" target="_blank">BetterTouchTool</a> to quickly re-open urls with specific gestures, buttons, or keyboard shortcuts.
 
 ### You might need to load your shell config first
 BetterTouchTools and Shortcuts (especially in “Run Shell Script”) often run a minimal environment: they don’t load your full shell config. That’s why reopen might be unknown inside these tools, and **you might have to load your shell config before.
@@ -61,7 +55,7 @@ source ~/.zshrc
 reopen "https://netflix.com"
 ```
 
-### Need of using " " and https
+### How to Format URLs Correctly in embedded terminals
 
 In the embedded terminals, you might need to put the url in brackets and add https."
 ```sh
@@ -77,14 +71,11 @@ reopen "https://netflix.com" # might be needed in embedded terminals (like Short
 
 <img src="images/AppleShortcuts.png" alt="Example using BetterTouchTool" width="600">
 
-
 ## 🤝  Found a bug? Missing a specific feature?
-Feel free to file a new issue with a respective title and description
+Feel free to file a new <a href="https://github.com/lennarto/reopen-existing-tab/issues" target="_blank">Issue</a>.
 
 ## 💛 Support ABOUT ME / Contributing / License
 sponsor page
 
 ## 📘 License
-"open-existing-tab" is released under the terms of the [MIT License](LICENSE).
-
-BUY ME a COFFE, PAYPAL, LO FI
+"reopen-existing-tab" is released under the terms of the [MIT License](LICENSE).
