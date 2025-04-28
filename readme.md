@@ -1,15 +1,3 @@
-<h1 align="center">
-	<img alt="Fallback image description" src="images/logo_light.svg" width="300">
-</h1>
-
-<h1 align="center">
-	<img alt="Fallback image description" src="images/logo_dark2.svg" width="300">
-</h1>
-
-<h3 align="center">
-	Modern web IRC client designed for self-hosting
-</h3>
-
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/logo_dark.svg" width="300">
@@ -19,7 +7,7 @@
 </div>
 
 <h3 align="center">
-	Modern web IRC client designed for self-hosting
+	Simple CLI to (re)open a specific URL. If no such tab exists, it opens a new one.
 </h3>
 
 # Open Existing URL in Browser
