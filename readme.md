@@ -10,6 +10,9 @@
 	Simple CLI to (re)open a specific URL. If no such tab exists, it opens a new one.
 </h3>
 
+![Demo GIF](images/gif1.gif)
+<img src="images/gif2.gif" alt="Demo GIF" width="600">
+
 # Open Existing URL in Browser
 
 This project provides simple scripts to open a specific URL in an existing tab of either Google Chrome or Safari. If no such tab exists, it opens a new one.
