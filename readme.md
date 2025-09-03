@@ -2,14 +2,7 @@
 > ✨ **This is the CLI version.**  
 > 👉 The Chrome extension is here: **[lennarto/open-existing-tab-addon](https://github.com/lennarto/open-existing-tab-addon)**
 
-<!-- Promo Banner -->
-<div align="center" style="background-color:#FFF9DB; padding:15px; border-radius:8px; border:1px solid #F0E6A4; margin-bottom:20px;">
 
-🚀 **This is the command line version. There also is a chrome extension to re-open tabs via bookmarks** 🚀  
-<br>
-👉 Check out the chrome addon <a href="https://github.com/lennarto/open-existing-tab-addon">here</a> 👈
-
-</div>
 
 <div align="center">
 <picture>
