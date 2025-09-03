@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> ✨ **This is the CLI version.**  
+> 👉 The Chrome extension is here: **[lennarto/open-existing-tab-addon](https://github.com/lennarto/open-existing-tab-addon)**
+
 <!-- Promo Banner -->
 <div align="center" style="background-color:#FFF9DB; padding:15px; border-radius:8px; border:1px solid #F0E6A4; margin-bottom:20px;">
 
