@@ -1,3 +1,12 @@
+<!-- Promo Banner -->
+<div align="center" style="background-color:#FFF9DB; padding:15px; border-radius:8px; border:1px solid #F0E6A4; margin-bottom:20px;">
+
+🚀 **This is the command line version. There also is a chrome extension to re-open tabs via bookmarks** 🚀  
+<br>
+👉 Check out the chrome addon <a href="https://github.com/lennarto/open-existing-tab-addon">here</a> 👈
+
+</div>
+
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/logo_dark.svg" width="300">
@@ -47,7 +56,7 @@ Unfortunately, **Arc** and **Firefox** do not allow access to "tabs". They also 
 ## 🧩 Integration Examples
 You can integrate this with Tools like Apple Shortcuts or <a href="https://folivora.ai/" target="_blank">BetterTouchTool</a> to quickly re-open urls with specific gestures, buttons, or keyboard shortcuts.
 
-#### You might need to load your shell config first
+#### ‼️ You might need to load your shell config first
 BetterTouchTools and Shortcuts (especially in “Run Shell Script”) often run a minimal environment: they don’t load your full shell config. That’s why reopen might be unknown inside these tools, and **you might have to load your shell config before.
 In my case, it works with:**
 ```sh
@@ -55,7 +64,7 @@ source ~/.zshrc
 reopen "https://netflix.com"
 ```
 
-#### How to Format URLs Correctly in embedded terminals
+#### ‼️ How to Format URLs Correctly in embedded terminals
 
 In the embedded terminals, you might need to put the url in "brackets" and add https://
 ```sh
