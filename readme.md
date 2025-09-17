@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > ✨ **This is the CLI version.**  
-> 👉 The Chrome extension is here: **[lennarto/reopen-existing-tab-addon](https://github.com/lennarto/reopen-existing-tab-addon)**
+> 👉 The Chrome extension is here: **[lennarto/reopen-existing-tab-extension](https://github.com/lennarto/reopen-existing-tab-extension)**
 
 
 
