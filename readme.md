@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > ✨ **This is the CLI version.**  
-> 👉 The Chrome extension is here: **[lennarto/open-existing-tab-addon](https://github.com/lennarto/open-existing-tab-addon)**
+> 👉 The Chrome extension is here: **[lennarto/reopen-existing-tab-addon](https://github.com/lennarto/reopen-existing-tab-addon)**
 
 
 
@@ -77,17 +77,18 @@ reopen "https://netflix.com" # might be needed in embedded terminals (like Short
 
 <img src="images/AppleShortcuts.png" alt="Example using BetterTouchTool" width="600">
 
-## 🤝  Found a bug? Missing a specific feature?
-Feel free to file a new <a href="https://github.com/lennarto/reopen-existing-tab/issues" target="_blank">Issue</a>.
 
 ## 💙 Support 
-##### 🤝 Contact me
+
+#### 🐞  Found a bug? Missing a specific feature?
+Feel free to file a new <a href="https://github.com/lennarto/reopen-existing-tab/issues" target="_blank">Issue</a>.
+
+#### 🤝 Contact me
 I love building digital products, working in it-strategy, or applying ai in real-world use cases. On top of that, i create private it expert reports (🇩🇪 IT-Gutachten) for legal proceedings in germany, especially in criminal cases.
 👉 [My website](https://lennie.de) 👈
 
-##### 🍻 Buy me a beer 
+
+#### 🍻 Buy me a beer 
 
 If you’ve found something useful, feel free to fuel my next project with a Beer! 🍻 I do have a couple of cool ideas in my backlog 🚀
-
-## 📙 License
-"reopen-existing-tab" is released under the terms of the [MIT License](LICENSE).
+👉 [My Paypal](https://www.paypal.com/paypalme/ltoertzen) | [Ko-Fi](https://ko-fi.com/lennie) 👈
